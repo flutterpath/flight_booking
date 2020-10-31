@@ -27,10 +27,10 @@ class MyApp extends StatelessWidget {
       onGenerateRoute: AppRouters.generateRoute,
       theme: ThemeData(
 //          fontFamily: '',
-          accentColor: AppColors.colorSecondaryMaterial,
-          primaryColor: AppColors.colorPrimaryMaterial
+        primaryColor: AppColors.MaterialTheme1Primary,
+        accentColor: AppColors.MaterialTheme1Secondary,
       ),
+//      theme: Provider.of<ThemeChanger>(context).currentThemeData,
     );
   }
 }
-

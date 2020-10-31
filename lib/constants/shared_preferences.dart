@@ -4,6 +4,8 @@
 
  class SpUtil {
 
+   static const String APP_THEME_TYPE = 'app_theme_type';
+
    static SpUtil _instance;
 
    static Future<SpUtil> get instance async {
